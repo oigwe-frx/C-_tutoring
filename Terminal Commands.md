@@ -24,6 +24,12 @@ On Linux and Mac, the `man` command is used to show the **manual** of any comman
   man ls
 ```
 
+Unfortunately, if you are on Windows and using Git Bash, the `man` command is not included, however, you can just type the command that you want to know more about and then `--help` and you will get similar info:
+
+```bash
+  ls --help
+```
+
 ## File System Navigation
 - ```pwd```: Print Working Directory. Displays the absolute path of the folder you are currently in.
 - ```ls```: List. Shows the files and folders inside your current directory.
