@@ -98,6 +98,8 @@ When you are done, hit `ctrl+D`
 - ```nano [file_name]```: Nano. Opens a simple, beginner-friendly text editor inside the terminal window.
 - ```grep "[pattern]" [file]```: Global Regular Expression Print. Searches for specific text fragments inside a file.
 
+### The `cat` (concatenate) Command
+
 The cat command is a very common command and allows you to create single or multiple files, view content of a file, concatenate files and redirect output in terminal or files.
 
 The most common thing I use it for is to display the contents of a file:
