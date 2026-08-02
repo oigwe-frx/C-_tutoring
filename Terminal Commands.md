@@ -98,6 +98,43 @@ When you are done, hit `ctrl+D`
 - ```nano [file_name]```: Nano. Opens a simple, beginner-friendly text editor inside the terminal window.
 - ```grep "[pattern]" [file]```: Global Regular Expression Print. Searches for specific text fragments inside a file.
 
+The cat command is a very common command and allows you to create single or multiple files, view content of a file, concatenate files and redirect output in terminal or files.
+
+The most common thing I use it for is to display the contents of a file:
+
+```bash
+  cat [filename]
+```
+
+You can also view the contents of multiple files:
+
+```bash
+  cat [filename] [filename]
+```
+
+You can also create a file using the `cat` command:
+
+```bash
+  cat > [filename]
+```
+
+This will open up a new file and you can start typing. When you are done, you can press `Ctrl + D` to save and exit.
+
+You can also append to a file:
+
+```bash
+  cat >> [filename]
+```
+
+This will open up the file and you can start typing. When you are done, you can press `Ctrl + D` to save and exit.
+
+You can use it to show line numbers:
+
+```bash
+  cat -n [filename]
+```
+
+There are other uses as well, but as you can see, the `cat` command is very powerful.
 
 ## System and Utility Commands
 - ```clear```: Clear Screen. Wipes the terminal window clean of old outputs (Keyboard shortcut: Ctrl + L).
