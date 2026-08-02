@@ -15,4 +15,24 @@ Here is a quick-reference guide to the most common terminal commands.F
 
 ## File and Folder Management
 - ```mkdir [folder_name]```: Make Directory. Creates a new, empty folder.
-- ```touch [file_name]```: Touch. Creates a new, empty file (e.g., touch index.html).cp [source] [destination]: Copy. Copies a file from one location to another.mv [source] [destination]: Move/Rename. Moves a file to a new folder, or renames it if the destination is a new name.rm [file_name]: Remove. Deletes a file permanently.rm -rf [folder_name]: Force Remove Directory. Deletes a folder and all of its contents completely. Use with extreme caution.Viewing and Editing Filescat [file_name]: Concatenate. Displays the entire text content of a file directly in the terminal.less [file_name]: Less. Opens a file for interactive viewing, allowing you to scroll through long texts page by page.nano [file_name]: Nano. Opens a simple, beginner-friendly text editor inside the terminal window.grep "[pattern]" [file]: Global Regular Expression Print. Searches for specific text fragments inside a file.System and Utility Commandsclear: Clear Screen. Wipes the terminal window clean of old outputs (Keyboard shortcut: Ctrl + L).history: History. Displays a numbered list of all commands you have recently executed.sudo [command]: SuperUser Do. Runs a command with administrative or root privileges.man [command]: Manual. Opens the official built-in documentation and help guide for any given command.Common Operators| (Pipe): Sends the output of the first command as the input to a second command (e.g., ls | grep "project").> (Redirect): Takes the output of a command and writes it into a new file, overwriting existing content.>> (Append): Takes the output of a command and appends it to the bottom of an existing file.Key Navigation ShortcutsTab: Auto-completes the name of a file or folder as you type.Up / Down Arrows: Cycles through your previously typed commands.Ctrl + C: Aborts or halts the program or command currently running.
+- ```touch [file_name]```: Touch. Creates a new, empty file (e.g., touch index.html).
+- ```cp [source] [destination]```: Copy. Copies a file from one location to another.
+- ```mv [source] [destination]```: Move/Rename. Moves a file to a new folder, or renames it if the destination is a new name.
+- ```rm [file_name]```: Remove. Deletes a file permanently.
+- ```rm -rf [folder_name]```: Force Remove Directory. Deletes a folder and all of its contents completely. Use with extreme caution.
+
+
+## Viewing and Editing Files
+- ```cat [file_name]```: Concatenate. Displays the entire text content of a file directly in the terminal.
+- ```less [file_name]```: Less. Opens a file for interactive viewing, allowing you to scroll through long texts page by page.
+- ```nano [file_name]```: Nano. Opens a simple, beginner-friendly text editor inside the terminal window.
+- ```grep "[pattern]" [file]```: Global Regular Expression Print. Searches for specific text fragments inside a file.
+
+
+## System and Utility Commands
+- ```clear```: Clear Screen. Wipes the terminal window clean of old outputs (Keyboard shortcut: Ctrl + L).
+- ```history```: History. Displays a numbered list of all commands you have recently executed.
+- ```sudo [command]```: SuperUser Do. Runs a command with administrative or root privileges.
+- ```man [command]```: Manual. Opens the official built-in documentation and help guide for any given command.
+
+Common Operators| (Pipe): Sends the output of the first command as the input to a second command (e.g., ls | grep "project").> (Redirect): Takes the output of a command and writes it into a new file, overwriting existing content.>> (Append): Takes the output of a command and appends it to the bottom of an existing file.Key Navigation ShortcutsTab: Auto-completes the name of a file or folder as you type.Up / Down Arrows: Cycles through your previously typed commands.Ctrl + C: Aborts or halts the program or command currently running.
