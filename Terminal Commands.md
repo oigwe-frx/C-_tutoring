@@ -41,12 +41,18 @@ Another really simple one is the `date` command, which, surprise, will show you 
 ```
 
 ## File System Navigation
+
+Commands to navigate your file system are very important. You will be using them all the time. You won't remember every single command that you use, but these are the ones that you should remember.
+
 - ```pwd```: Print Working Directory. Displays the absolute path of the folder you are currently in.
 - ```ls```: List. Shows the files and folders inside your current directory.
 - ```ls -la```: Long List All. Displays detailed file information (permissions, size, date) including hidden files.
 - ```cd [directory]```: Change Directory. Moves you into the specified folder.
 - ```cd ..```: Move Up. Takes you back to the parent directory of your current location.
 - ```cd ~```: Home. Instantly returns you to your user account's home folder.
+
+Of course, you can group flags together. For example, if I want to see more info and view hidden files, I could do `ls -l -a` and even shorten it to `ls -la`.
+
 
 
 ## File and Folder Management
