@@ -9,7 +9,7 @@ Here is a quick-reference guide to the most common terminal commands.F
 - ```ls```: List. Shows the files and folders inside your current directory.
 - ```ls -la```: Long List All. Displays detailed file information (permissions, size, date) including hidden files.
 - ```cd [directory]```: Change Directory. Moves you into the specified folder.
-- ```cd ..``: Move Up. Takes you back to the parent directory of your current location.
+- ```cd ..```: Move Up. Takes you back to the parent directory of your current location.
 - ```cd ~```: Home. Instantly returns you to your user account's home folder.
 
 
