@@ -53,7 +53,19 @@ Commands to navigate your file system are very important. You will be using them
 
 Of course, you can group flags together. For example, if I want to see more info and view hidden files, I could do `ls -l -a` and even shorten it to `ls -la`.
 
+## Opening a Folder or File
 
+If you want to open a file or a folder in the GUI from your terminal, the command is different depending on the OS.
+
+Mac - `open [dirname]`
+Windows - `start [dirname]`
+Linux - `xdg-open [dirname]`
+
+You can open folders, files and even URLs
+
+```bash
+  open https://www.google.com
+```
 
 ## File and Folder Management
 - ```mkdir [folder_name]```: Make Directory. Creates a new, empty folder.
