@@ -75,6 +75,22 @@ You can open folders, files and even URLs
 - ```rm [file_name]```: Remove. Deletes a file permanently.
 - ```rm -rf [folder_name]```: Force Remove Directory. Deletes a folder and all of its contents completely. Use with extreme caution.
 
+We can also do multiple commands at once with the `&&` operator:
+
+```bash
+cd test2 && mkdir test3
+```
+
+## Right angle bracket >
+
+This symbol tells the system to output results into whatever you specify next. The target is usually a filename. You can use this symbol by itself to create a new file:
+
+```bash
+> [filename]
+```
+
+When you are done, hit `ctrl+D`
+
 
 ## Viewing and Editing Files
 - ```cat [file_name]```: Concatenate. Displays the entire text content of a file directly in the terminal.
