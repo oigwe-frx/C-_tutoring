@@ -16,6 +16,14 @@ Before we look at some common commands, I just want to note a few keyboard comma
 - `Ctrl + R`: Will search for a command
 - `Ctrl + D`: Will exit the terminal
 
+## Manual Command
+
+On Linux and Mac, the `man` command is used to show the **manual** of any command that you can run in the terminal. So if you wanted to know more about the `ls` command, you could run:
+
+```bash
+  man ls
+```
+
 ## File System Navigation
 - ```pwd```: Print Working Directory. Displays the absolute path of the folder you are currently in.
 - ```ls```: List. Shows the files and folders inside your current directory.
@@ -45,7 +53,6 @@ Before we look at some common commands, I just want to note a few keyboard comma
 - ```clear```: Clear Screen. Wipes the terminal window clean of old outputs (Keyboard shortcut: Ctrl + L).
 - ```history```: History. Displays a numbered list of all commands you have recently executed.
 - ```sudo [command]```: SuperUser Do. Runs a command with administrative or root privileges.
-- ```man [command]```: Manual. Opens the official built-in documentation and help guide for any given command.
 
 ## Common Operators
 - ```| (Pipe)```: Sends the output of the first command as the input to a second command (e.g., ls | grep "project").
