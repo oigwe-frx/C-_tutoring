@@ -32,6 +32,14 @@ Unfortunately, if you are on Windows and using Git Bash, the `man` command is no
 
 You should be able to use the arrow keys or page up and down. When you are ready to exit, just press `q`.
 
+## The `date` Command
+
+Another really simple one is the `date` command, which, surprise, will show you the current date and time.
+
+```bash
+  date
+```
+
 ## File System Navigation
 - ```pwd```: Print Working Directory. Displays the absolute path of the folder you are currently in.
 - ```ls```: List. Shows the files and folders inside your current directory.
