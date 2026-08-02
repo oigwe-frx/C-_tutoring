@@ -30,6 +30,8 @@ Unfortunately, if you are on Windows and using Git Bash, the `man` command is no
   ls --help
 ```
 
+You should be able to use the arrow keys or page up and down. When you are ready to exit, just press `q`.
+
 ## File System Navigation
 - ```pwd```: Print Working Directory. Displays the absolute path of the folder you are currently in.
 - ```ls```: List. Shows the files and folders inside your current directory.
