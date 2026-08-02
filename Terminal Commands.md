@@ -4,6 +4,18 @@ Terminal commands are text-based instructions used to navigate your computer, ma
 The most essential commands for Unix-based systems (macOS and Linux) focus on file system navigation, file manipulation, and system utilities.
 Here is a quick-reference guide to the most common terminal commands.F
 
+## Key Commands & Navigation
+
+Before we look at some common commands, I just want to note a few keyboard commands that are very helpful:
+
+- `Up Arrow`: Will show your last command
+- `Down Arrow`: Will show your next command
+- `Tab`: Will auto-complete your command
+- `Ctrl + L`: Will clear the screen
+- `Ctrl + C`: Will cancel a command
+- `Ctrl + R`: Will search for a command
+- `Ctrl + D`: Will exit the terminal
+
 ## File System Navigation
 - ```pwd```: Print Working Directory. Displays the absolute path of the folder you are currently in.
 - ```ls```: List. Shows the files and folders inside your current directory.
@@ -40,7 +52,3 @@ Here is a quick-reference guide to the most common terminal commands.F
 - ```> (Redirect)```: Takes the output of a command and writes it into a new file, overwriting existing content.
 - ```>> (Append)```: Takes the output of a command and appends it to the bottom of an existing file.
 
-## Key Navigation Shortcuts
-- ```Tab```: Auto-completes the name of a file or folder as you type.
-- ```Up / Down Arrows```: Cycles through your previously typed commands.
-- ```Ctrl + C```: Aborts or halts the program or command currently running.
