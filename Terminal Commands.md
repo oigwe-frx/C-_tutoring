@@ -35,4 +35,12 @@ Here is a quick-reference guide to the most common terminal commands.F
 - ```sudo [command]```: SuperUser Do. Runs a command with administrative or root privileges.
 - ```man [command]```: Manual. Opens the official built-in documentation and help guide for any given command.
 
-Common Operators| (Pipe): Sends the output of the first command as the input to a second command (e.g., ls | grep "project").> (Redirect): Takes the output of a command and writes it into a new file, overwriting existing content.>> (Append): Takes the output of a command and appends it to the bottom of an existing file.Key Navigation ShortcutsTab: Auto-completes the name of a file or folder as you type.Up / Down Arrows: Cycles through your previously typed commands.Ctrl + C: Aborts or halts the program or command currently running.
+## Common Operators
+- ```| (Pipe)```: Sends the output of the first command as the input to a second command (e.g., ls | grep "project").
+- ```> (Redirect)```: Takes the output of a command and writes it into a new file, overwriting existing content.
+- ```>> (Append)```: Takes the output of a command and appends it to the bottom of an existing file.
+
+## Key Navigation Shortcuts
+- ```Tab```: Auto-completes the name of a file or folder as you type.
+- ```Up / Down Arrows```: Cycles through your previously typed commands.
+- ```Ctrl + C```: Aborts or halts the program or command currently running.
